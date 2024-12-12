@@ -40,7 +40,6 @@ body{
 
 .logobar{
     background-color: rgb(127, 64, 112);
-    margin: 0;
 }
 
 .navbar{
@@ -218,7 +217,7 @@ select{
 .projcard{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     word-wrap: break-word;
     gap: 2rem;
     padding-bottom: 50px;
@@ -273,4 +272,23 @@ section li{
 
 .bb:hover{
     background-color: grey;
+}
+
+@media  screen and (max-width: 768px){
+
+    .banner{
+        display: flex;
+        width: 90%;
+    }
+    .aboutcontent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .shadow{
+        max-width: 100%;
+    }
+    .qwords{
+        justify-content: center;
+    }
 }
