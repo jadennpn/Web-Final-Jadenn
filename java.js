@@ -3,6 +3,11 @@ live.addEventListener("change",function(){
     let choice = document.getElementById('live'). value;
     console.log(choice);
 
+    if(choice == '5') {
+        console.log('reset');
+        document.getElementById('answer').innerHTML= "hehehe";
+    }
+
     if(choice == '1') {
         console.log('stand by me!!!!');
         document.getElementById('answer').innerHTML= "great movie, not my favourite though!!!";

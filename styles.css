@@ -232,6 +232,7 @@ select{
     max-width: 35rem;
     background-color: rgb(223, 175, 211);
     margin: 1rem;
+    justify-content: center;
 }
 .projtitle{
     display: flex;
@@ -292,3 +293,4 @@ section li{
         justify-content: center;
     }
 }
+
